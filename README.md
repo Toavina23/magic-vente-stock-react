@@ -11,7 +11,7 @@ Added libraries:
 ### Steps
 
 - add an env file containing the required variables listed bellow:
-  - **api_url**: the url of the backend api
+  - **VITE_APP_API_URL**: the url of the backend api
 
 - run the **docker-build.sh** script file to build the docker image
 - run the **docker-run.sh** script file to run a container of the precedently built docker image
