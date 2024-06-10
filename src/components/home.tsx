@@ -107,7 +107,7 @@ export function Home() {
                   fabriqués à la main inspiré du monde du Seigneur des Anneaux.
                 </p>
                 <div className="space-x-4 mt-6">
-                  <MagicButton>Decoucrir plus de magie</MagicButton>
+                  <MagicButton>Decouvrir plus de magie</MagicButton>
                   {/**
                   <Button
                     className="inline-flex h-9 items-center justify-center rounded-md text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/20 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary-950 disabled:pointer-events-none disabled:opacity-50 font-[Playfair Display, serif] dark:hover:bg-gray-50/20"
@@ -128,7 +128,8 @@ export function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        {/* Section produit du jour */}
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-black text-white">
           <div className="container space-y-12 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -210,7 +211,8 @@ export function Home() {
             </div>
           </div>
         </section>
-        <section className="flex justify-center w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        {/* Section login */}
+        <section className="flex justify-center w-full py-12 md:py-24 lg:py-32  bg-gray-800 text-white">
           <Login></Login>
         </section>
       </main>
@@ -218,6 +220,7 @@ export function Home() {
   );
 }
 
+//@ts-ignore
 function BellRingIcon(props) {
   return (
     <svg
@@ -240,6 +243,7 @@ function BellRingIcon(props) {
   );
 }
 
+//@ts-ignore
 function CloverIcon(props) {
   return (
     <svg
@@ -261,6 +265,7 @@ function CloverIcon(props) {
   );
 }
 
+//@ts-ignore
 function MenuIcon(props) {
   return (
     <svg
@@ -297,6 +302,7 @@ function MenuIcon(props) {
   );
 }
 
+//@ts-ignore
 function SwordIcon(props) {
   return (
     <svg
@@ -334,6 +340,7 @@ function SwordIcon(props) {
   );
 }
 
+//@ts-ignore
 function WandIcon(props) {
   return (
     <svg
