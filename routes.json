@@ -1,0 +1,3 @@
+{
+  "/api/produit/duJour": "/produit?estDuJour=true"
+}

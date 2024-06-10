@@ -1,0 +1,44 @@
+{
+  "produit": [
+    {
+      "id": 1,
+      "reference": "LOTR-001",
+      "libelle": "One Ring",
+      "estDuJour": true,
+      "prix": 1000000,
+      "quantiteStock": 1
+    },
+    {
+      "id": 2,
+      "reference": "LOTR-002",
+      "libelle": "Elven Cloak",
+      "estDuJour": true,
+      "prix": 500,
+      "quantiteStock": 20
+    },
+    {
+      "id": 3,
+      "reference": "LOTR-003",
+      "libelle": "Mithril Shirt",
+      "estDuJour": true,
+      "prix": 20000,
+      "quantiteStock": 5
+    },
+    {
+      "id": 4,
+      "reference": "LOTR-003",
+      "libelle": "Mithril Shirt",
+      "estDuJour": false,
+      "prix": 20000,
+      "quantiteStock": 5
+    },
+    {
+      "id": 5,
+      "reference": "LOTR-003",
+      "libelle": "Mithril Shirt",
+      "estDuJour": false,
+      "prix": 20000,
+      "quantiteStock": 5
+    }
+  ]
+}
