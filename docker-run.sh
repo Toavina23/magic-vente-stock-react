@@ -1,0 +1,1 @@
+docker run magic-vente-stock/front:latest -d -p 5000:5000 --env-file .env

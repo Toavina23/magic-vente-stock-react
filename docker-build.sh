@@ -1,0 +1,1 @@
+docker build . -t magic-vente-stock/front:latest -f ./Dockerfile
