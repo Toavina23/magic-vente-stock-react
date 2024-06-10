@@ -153,7 +153,7 @@ export function Home() {
                   width="300"
                 />
                 <h3 className="text-lg font-bold font-[Playfair Display, serif]">
-                  Un anneau pour les gouverner tous
+                  Un anneau pour tous les gouverner 
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 font-[Playfair Display, serif]">
                   L'anneau de pouvoir le plus puissant, forgé par le Seigneur
